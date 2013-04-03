@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF9A7F0170C12EC006446D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF9A7EF170C12EC006446D4 /* UIKit.framework */; };
+		EEF9A7F2170C12ED006446D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF9A7F1170C12EC006446D4 /* Foundation.framework */; };
+		EEF9A7F4170C12ED006446D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF9A7F3170C12ED006446D4 /* CoreGraphics.framework */; };
+		EEF9A7FA170C12ED006446D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF9A7F8170C12ED006446D4 /* InfoPlist.strings */; };
+		EEF9A7FC170C12ED006446D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A7FB170C12ED006446D4 /* main.m */; };
+		EEF9A800170C12ED006446D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A7FF170C12ED006446D4 /* AppDelegate.m */; };
+		EEF9A802170C12ED006446D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9A801170C12ED006446D4 /* Default.png */; };
+		EEF9A804170C12ED006446D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9A803170C12ED006446D4 /* Default@2x.png */; };
+		EEF9A806170C12ED006446D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9A805170C12ED006446D4 /* Default-568h@2x.png */; };
+		EEF9A809170C12ED006446D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A808170C12ED006446D4 /* ViewController.m */; };
+		EEF9A80C170C12ED006446D4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF9A80A170C12ED006446D4 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEF9A7EC170C12EC006446D4 /* In App Rage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "In App Rage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF9A7EF170C12EC006446D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEF9A7F1170C12EC006446D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEF9A7F3170C12ED006446D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEF9A7F7170C12ED006446D4 /* In App Rage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "In App Rage-Info.plist"; sourceTree = "<group>"; };
+		EEF9A7F9170C12ED006446D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF9A7FB170C12ED006446D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF9A7FD170C12ED006446D4 /* In App Rage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "In App Rage-Prefix.pch"; sourceTree = "<group>"; };
+		EEF9A7FE170C12ED006446D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF9A7FF170C12ED006446D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF9A801170C12ED006446D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EEF9A803170C12ED006446D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EEF9A805170C12ED006446D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EEF9A807170C12ED006446D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEF9A808170C12ED006446D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEF9A80B170C12ED006446D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF9A7E9170C12EC006446D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9A7F0170C12EC006446D4 /* UIKit.framework in Frameworks */,
+				EEF9A7F2170C12ED006446D4 /* Foundation.framework in Frameworks */,
+				EEF9A7F4170C12ED006446D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF9A7E3170C12EC006446D4 = {
+			isa = PBXGroup;
+			children = (
+				EEF9A7F5170C12ED006446D4 /* In App Rage */,
+				EEF9A7EE170C12EC006446D4 /* Frameworks */,
+				EEF9A7ED170C12EC006446D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF9A7ED170C12EC006446D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9A7EC170C12EC006446D4 /* In App Rage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF9A7EE170C12EC006446D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9A7EF170C12EC006446D4 /* UIKit.framework */,
+				EEF9A7F1170C12EC006446D4 /* Foundation.framework */,
+				EEF9A7F3170C12ED006446D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF9A7F5170C12ED006446D4 /* In App Rage */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9A7FE170C12ED006446D4 /* AppDelegate.h */,
+				EEF9A7FF170C12ED006446D4 /* AppDelegate.m */,
+				EEF9A807170C12ED006446D4 /* ViewController.h */,
+				EEF9A808170C12ED006446D4 /* ViewController.m */,
+				EEF9A80A170C12ED006446D4 /* ViewController.xib */,
+				EEF9A7F6170C12ED006446D4 /* Supporting Files */,
+			);
+			path = "In App Rage";
+			sourceTree = "<group>";
+		};
+		EEF9A7F6170C12ED006446D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9A7F7170C12ED006446D4 /* In App Rage-Info.plist */,
+				EEF9A7F8170C12ED006446D4 /* InfoPlist.strings */,
+				EEF9A7FB170C12ED006446D4 /* main.m */,
+				EEF9A7FD170C12ED006446D4 /* In App Rage-Prefix.pch */,
+				EEF9A801170C12ED006446D4 /* Default.png */,
+				EEF9A803170C12ED006446D4 /* Default@2x.png */,
+				EEF9A805170C12ED006446D4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF9A7EB170C12EC006446D4 /* In App Rage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF9A80F170C12ED006446D4 /* Build configuration list for PBXNativeTarget "In App Rage" */;
+			buildPhases = (
+				EEF9A7E8170C12EC006446D4 /* Sources */,
+				EEF9A7E9170C12EC006446D4 /* Frameworks */,
+				EEF9A7EA170C12EC006446D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "In App Rage";
+			productName = "In App Rage";
+			productReference = EEF9A7EC170C12EC006446D4 /* In App Rage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF9A7E4170C12EC006446D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = baroqueworkshop;
+			};
+			buildConfigurationList = EEF9A7E7170C12EC006446D4 /* Build configuration list for PBXProject "In App Rage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEF9A7E3170C12EC006446D4;
+			productRefGroup = EEF9A7ED170C12EC006446D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF9A7EB170C12EC006446D4 /* In App Rage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF9A7EA170C12EC006446D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9A7FA170C12ED006446D4 /* InfoPlist.strings in Resources */,
+				EEF9A802170C12ED006446D4 /* Default.png in Resources */,
+				EEF9A804170C12ED006446D4 /* Default@2x.png in Resources */,
+				EEF9A806170C12ED006446D4 /* Default-568h@2x.png in Resources */,
+				EEF9A80C170C12ED006446D4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF9A7E8170C12EC006446D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9A7FC170C12ED006446D4 /* main.m in Sources */,
+				EEF9A800170C12ED006446D4 /* AppDelegate.m in Sources */,
+				EEF9A809170C12ED006446D4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEF9A7F8170C12ED006446D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF9A7F9170C12ED006446D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEF9A80A170C12ED006446D4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF9A80B170C12ED006446D4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF9A80D170C12ED006446D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEF9A80E170C12ED006446D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF9A810170C12ED006446D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "In App Rage/In App Rage-Prefix.pch";
+				INFOPLIST_FILE = "In App Rage/In App Rage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEF9A811170C12ED006446D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "In App Rage/In App Rage-Prefix.pch";
+				INFOPLIST_FILE = "In App Rage/In App Rage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF9A7E7170C12EC006446D4 /* Build configuration list for PBXProject "In App Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF9A80D170C12ED006446D4 /* Debug */,
+				EEF9A80E170C12ED006446D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF9A80F170C12ED006446D4 /* Build configuration list for PBXNativeTarget "In App Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF9A810170C12ED006446D4 /* Debug */,
+				EEF9A811170C12ED006446D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF9A7E4170C12EC006446D4 /* Project object */;
+}
